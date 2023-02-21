@@ -1,0 +1,23 @@
+
+.container {
+    height: 100vh;
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: minmax(150px, 25%) 1fr;
+
+    position: relative;
+}
+
+.sidebar {
+    background-color: bisque;
+}
+
+.content {
+    background-color: brown;
+}
+
+.item {
+    color: #ffffff;
+    text-align: center;
+    line-height: 100vh;
+}

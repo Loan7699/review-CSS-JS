@@ -1,0 +1,15 @@
+
+/* justify-content: căn các item theo trục main, align-items: căn các item theo trục cross */
+.container {
+    background-color: #30598c;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+}

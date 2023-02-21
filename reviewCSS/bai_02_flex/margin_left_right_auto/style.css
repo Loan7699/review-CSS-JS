@@ -1,0 +1,16 @@
+.menu {
+    height: 60px;
+    background-color: #cccccc;
+
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    
+}
+
+.sub-menu {
+    margin-left: auto;
+}
+/* sử dụng margin-left auto của item kết hợp flex cho container để đẩy phần tử sang bên phải */

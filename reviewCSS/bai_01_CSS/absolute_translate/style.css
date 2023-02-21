@@ -1,0 +1,23 @@
+/* absolute, top => dịch chuyển phần tử child theo parent (cách top của child 50% so với parent), sau đó cần dịch 50% kthc child lên */
+/* translate dịch chuyển theo vị trí phần tử child đó */
+.parent {
+    background-color: antiquewhite;
+    width: 300px;
+    height: 50px;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+.child1, .child2 {
+    background-color: brown;
+    color: #ffffff;
+
+    width: 100px;
+    position: absolute;
+    top: 50%;
+}
+
+.child1 {
+    transform: translateY(-50%);
+}

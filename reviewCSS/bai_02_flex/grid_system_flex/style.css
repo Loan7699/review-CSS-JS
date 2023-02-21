@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+}
+
+
+/* header */
+.header {
+    background-color: #30598c;
+    align-items: center;
+
+    display: flex;
+    /* justify-content: space-between; */
+    height: 62px;
+}
+
+.logo {
+    width: 120px;
+    margin-left: 24px;
+}
+
+.list-menu {
+    display: flex;
+    position: relative;
+    margin-left: auto;
+}
+
+.list-menu li, .list-menu .cart {
+    color: #ffffff;
+    line-height: 32px;
+
+    margin-right: 24px;
+}
+
+.list-menu li {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.cart {
+    position: relative;
+}
+
+.quantity {
+    background-color: aquamarine;
+    text-align: center;
+    line-height: 15px;
+
+    width: 10px;
+    height: 15px;
+    border-radius: 2px;
+
+    position: absolute;
+    top: -3px;
+    right: -2px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    margin-right: 24px;
+}
+
+.avatar img {
+    border-radius: 50%;
+}
+
+
+/* content */
+.content {
+    padding: 50px 0 20px;
+    background-color: #f4f7fa;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 0.15);
+
+    flex-basis: 31%;
+    margin-bottom: 24px;
+    margin-left: 24px;
+}
+
+.card img {
+    height: 400px;
+    width: 100%;
+}
+
+.info {
+    margin: 16px 24px 0px;
+}
+
+.info > p {
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.detail {
+    font-size: 14px;
+    color: #757575;
+
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate {
+    display: flex;
+}
+
+.rate i {
+    color: #ffd600;
+    margin-left: 4px;
+}
+
+
+/* footer */
+.footer {
+    background-color: #30598c;
+    color: #ffffff;
+
+    display: flex;
+    padding: 48px 96px;
+}
+
+.footer ul {
+    flex-basis: 25%;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.2;
+
+    margin-bottom: 16px;
+}
+
+.footer li {
+    list-style-type: none;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+

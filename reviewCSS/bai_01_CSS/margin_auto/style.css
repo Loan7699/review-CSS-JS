@@ -1,0 +1,18 @@
+/* margin: auto => căn phần tử ra giữa tho chiều ngang, ko theo chiều thẳng đứng (vertical)*/
+.container {
+    height: 200px;
+    background-color: bisque;
+}
+
+.item {
+    margin: auto;
+    width: 100px;
+    height: 50px;
+
+    background-color: brown;
+    color: #ffffff;
+    /* căn text chiều ngang */
+    text-align: center; 
+    /* căn text giữa chiều dọc: cho line-height = height */
+    line-height: 50px;
+}

@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 12px;
+} 
+
+.item {
+    background-color: gold;
+    border: 1px solid grey;
+    min-height: 50px;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    /* repeat(3, 1fr) => 1fr 1fr 1fr */
+    /* grid-template-rows: 50px 50px 50px; */
+    /* khi ko khai báo grid-template-rows, các item tự động chuyển xuống hàng tiếp => xét chiều cao cho các row-auto */
+    /* grid-auto-rows: 100px; */
+    grid-auto-rows: minmax(60px, auto);
+    /* nếu content của item nào vượt quá 60px => các item sẽ lấy theo kthc item đó */
+
+    grid-template-areas:
+    'header header header header'
+    'nav content content sidebar'
+    'nav content content sidebar'
+    'footer footer footer footer'
+}
+
+.item1 {
+    /* grid-column-start: 2;
+    grid-column-end: 4;
+    item bđ từ line 2, KT ở line 4 theo cột
+
+    grid-row-start: 2;
+    grid-row-end: 4; */
+
+    /* grid-column: 2 / 4;
+    grid-row: 2 / 4 */
+
+    grid-area: header;
+}
+
+.item2 {
+    /* grid-row: 2 / 4; */
+    grid-area: nav;
+}
+
+.item3 {
+    grid-area: content;
+}
+
+.item4 {
+    grid-area: sidebar;
+}
+
+.item5 {
+    grid-area: footer;
+}
+/* các thành phần của grid
+1. grid container
+2. grid item
+3. grid track: 1 hàng/1 cột
+4. grid line
+5. grid cell: tạo bởi các cột + hàng giao nhau
+6. grid area
+ */
+ /* khi ko xét kthc của row => lấy theo nội dung item */
+ /* độ dài tương đối: fr (fraction): tính toán phần khoảng không gian khả dụng */

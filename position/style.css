@@ -1,0 +1,59 @@
+/* relative */
+/* .header {
+    background-color: #333333;
+    position: relative;
+    height: 100px;
+    color: #ffffff;
+} */
+
+/* absolute */
+/* .page {
+    position: relative;
+    background-color: blue;
+}
+
+.header {
+    background-color: #333333;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    color: #ffffff;
+    top: 10px;
+    left: 10px;
+} */
+
+/* fixed */
+/* .page {
+    position: relative;
+    height: 1000px;
+}
+
+.header {
+    background-color: #333333;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    color: #ffffff;
+    top: 0;
+}
+
+ul {
+    margin-top: 150px;
+} */
+
+/* sticky */
+.page {
+    position: relative;
+    /* height: 1000px; */
+}
+
+.header {
+    /* margin-top: 200px; */
+    background-color: #333333;
+    /* position: sticky; */
+    height: 100px;
+    width: 100%;
+    color: #ffffff;
+    position: absolute;
+    transform: translatex(100px);
+}

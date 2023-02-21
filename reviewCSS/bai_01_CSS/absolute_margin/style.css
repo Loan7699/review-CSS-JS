@@ -1,0 +1,27 @@
+/* căn giữa theo chiều dọc */
+.parent {
+    background-color: bisque;
+
+    margin-bottom: 50px;
+    height: 100px;
+    position: relative;
+}
+
+.child1, .child2 {
+    background-color: brown;
+    color: #ffffff;
+
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.child1 {
+    margin: auto;
+}

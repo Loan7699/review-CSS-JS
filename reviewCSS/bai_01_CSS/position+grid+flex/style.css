@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 60px auto 250px;
+}
+
+.header {
+    background-color: navy;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}
+
+.list-menu {
+    display: flex;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.footer {
+    background-color: navy;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.filter {
+    grid-area: filter;
+    background-color: bisque;
+}
+
+.course {
+    grid-area: course;
+    background-color: cadetblue;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 0.15);
+
+    flex-basis: 31%;
+    margin-bottom: 24px;
+    margin-left: 24px;
+}
+
+.card img {
+    height: 400px;
+    width: 100%;
+}
+
+.info {
+    margin: 16px 24px 0px;
+}
+
+.info > p {
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.detail {
+    font-size: 14px;
+    color: #757575;
+
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate {
+    display: flex;
+}
+
+.rate i {
+    color: #ffd600;
+    margin-left: 4px;
+}
+
